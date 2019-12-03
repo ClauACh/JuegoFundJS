@@ -2,11 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <title>Simon Dice</title>
     <style>
       body {
         margin: 0;
-        background: #dedede;
+        background: #ccc;
         display: flex;
         align-items: center;
         height: 100vh;
@@ -20,12 +21,14 @@
         margin: 0 auto;
         max-height: 60vh;
         max-width: 60vh;
+        border: 3px solid black;
       }
 
       .color {
         width: 50%;
         height: 50%;
         display: inline-block;
+       
       }
 
       .left {
@@ -37,23 +40,26 @@
       }
 
       .celeste {
-        background: #22a6b3;
+        background: #2224b3;
+        outline: solid 3px black;
       }
 
       .celeste.light {
-        background: #7ed6df;
+        background: #0112ff;
       }
 
       .violeta {
-        background: #be2edd;
+        background: #8a1313;
+        outline: solid 3px black;
       }
 
       .violeta.light {
-        background: #e056fd;
+        background: #d61010;
       }
 
       .naranja {
         background: #f0932b;
+        outline: solid 3px black;
       }
 
       .naranja.light {
@@ -61,22 +67,24 @@
       }
 
       .verde {
-        background: #6ab04c;
+        background: #3c9e13;
+        outline: solid 3px black;
       }
 
       .verde.light {
-        background: #badc58;
+        background: #77f303;
       }
 
       .btn-start {
         width: 400px;
         height: 100px;
-        background: #ecf0f1;
+        background: white;
         color: #2c3e50;
         font-size: 2.5rem;
         position: absolute;
         top: calc(50% - 50px);
         left: calc(50% - 200px);
+        font-family: 'Orbitron', sans-serif;
       }
 
       .hide {
